@@ -30,7 +30,7 @@
       background-color: $lightPink;
 
       @mixin atLarge {
-         background: url('/assets/images/testimonials-bg.jpg') top center repeat;
+         background: url('../../assets/images/testimonials-bg.jpg') top center repeat;
          /*background-size: cover;*/
       }
 
