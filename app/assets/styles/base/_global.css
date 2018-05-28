@@ -1,0 +1,20 @@
+body {
+   font-family: 'Roboto',sans-serif;
+   color: #333;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* the "*" sellecter name means "everywhere on the site" */
+/* box-sizing: border-box means "The width and height properties (and min/max properties) includes content, padding and border" */
+/* see: https://www.w3schools.com/CSSref/css3_pr_box-sizing.asp */
+* {
+   box-sizing: border-box;
+}
+
+a {
+   color: $mainOrange;
+}
